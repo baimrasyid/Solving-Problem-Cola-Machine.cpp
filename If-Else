@@ -1,0 +1,44 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int pilihan;
+    string pilihan2;
+    cout << "<<<<<< Selamat Datang Mesin Otomatis Minuman Kaleng >>>>>>\n";
+    cout << "    <<<<<< Welcome To Automatic Drinking Machine >>>>>>\n\n";
+    cout << "Daftar Minuman\n\n";
+    cout << "===============================\n";
+    cout << "| Nama Minuman | Kode Minuman |\n";
+    cout << "-------------------------------\n";
+    cout << "|  Coca-Cola   |      1       |\n";
+    cout << "-------------------------------\n";
+    cout << "|    Fanta     |      2       |\n";
+    cout << "-------------------------------\n";
+    cout << "|    Sprite    |      3       |\n";
+    cout << "-------------------------------\n";
+    cout << "|     Tebs     |      4       |\n";
+    cout << "-------------------------------\n";
+    cout << "|     Beer     |      5       |\n";
+    cout << "===============================";
+    cout << "\nMasukkan Angka 1-5 Untuk Memilih Minuman Yang Anda Mau : ";
+    cin >> pilihan;
+    {
+    if(pilihan==1){cout << "\nAnda Ingin Membeli Coca-Cola ??\n";
+    cout << "\nAnda Yakin ?? ";cin >> pilihan2;}
+    else if(pilihan==2){cout << "\nAnda Ingin Membeli Fanta ??\n";
+    cout << "\nAnda Yakin ?? ";cin >> pilihan2;}
+    else if(pilihan==3){cout << "\nAnda Ingin Membeli Sprite ??\n";
+    cout << "\nAnda Yakin ?? ";cin >> pilihan2;}
+    else if(pilihan==4){cout << "\nAnda Ingin Membeli Tebs ??\n";
+    cout << "\nAnda Yakin ?? ";cin >> pilihan2;}
+    else if(pilihan==5){cout << "\nAnda Ingin Membeli Beer ??\n";
+    cout << "\nAnda Yakin ?? ";cin >> pilihan2;}
+    else {cout << "\nAngka Salah Silahkan Ambil Uang Anda Kembali\n";}
+    }
+    {
+    if(pilihan2=="Ya"){cout << "\nSilahkan Ambil, Selamat Menikmati Minuman Anda !!\n";}
+    }
+    cout << "\n    <<<<<< Terima Kasih >>>>>>\n";
+    cout << "     <<<<<< Thank You >>>>>>\n";
+    return 0;
+}
