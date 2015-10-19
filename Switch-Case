@@ -1,0 +1,41 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int Pilihan;
+    cout << "<<<<<< Selamat Datang Mesin Otomatis Minuman Kaleng >>>>>>\n";
+    cout << "    <<<<<< Welcome To Automatic Drinking Machine >>>>>>\n\n";
+    cout << "Daftar Minuman\n\n";
+    cout << "===============================\n";
+    cout << "| Nama Minuman | Kode Minuman |\n";
+    cout << "-------------------------------\n";
+    cout << "|  Coca-Cola   |      1       |\n";
+    cout << "-------------------------------\n";
+    cout << "|    Fanta     |      2       |\n";
+    cout << "-------------------------------\n";
+    cout << "|    Sprite    |      3       |\n";
+    cout << "-------------------------------\n";
+    cout << "|     Tebs     |      4       |\n";
+    cout << "-------------------------------\n";
+    cout << "|     Beer     |      5       |\n";
+    cout << "===============================";
+    cout << "\nMasukkan Angka Sesuai Keinginan Anda : ";
+    cin >> Pilihan;
+    switch(Pilihan)
+    {
+        case 1 : cout << "\nAnda Memilih Coca-Cola ";
+        cout << "\n\nSilahkan Ambil, Selamat Menikmati Minuman Anda !!!";break;
+        case 2 : cout << "\nAnda Memilih Fanta ";
+        cout << "\n\nSilahkan Ambil, Selamat Menikmati Minuman Anda !!!";break;
+        case 3 : cout << "\nAnda Memilih Sprite ";
+        cout << "\n\nSilahkan Ambil, Selamat Menikmati Minuman Anda !!!";break;
+        case 4 : cout << "\nAnda Memilih Tebs ";
+        cout << "\n\nSilahkan Ambil, Selamat Menikmati Minuman Anda !!!";break;
+        case 5 : cout << "\nAnda Memilih Beer ";
+        cout << "\n\nSilahkan Ambil, Selamat Menikmati Minuman Anda !!!";break;
+        default : cout << "\nAngka Salah, Anda Tidak Perlu Bayar ";break;
+    }
+    cout << "\n\n    <<<<<< Terima Kasih >>>>>>\n";
+    cout << "     <<<<<< Thank You >>>>>>\n";
+    return 0;
+}
